@@ -1,0 +1,12 @@
+/* 
+Format is: ".namespace/.constructor"
+For below, namespace="acehaddock.PCF.Components" constructor="PhoneNumberFormat"
+*/
+
+acehaddock.PCF.Components\.PhoneNumberFormat img{
+    max-width: -webkit-fill-available;
+    min-width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
