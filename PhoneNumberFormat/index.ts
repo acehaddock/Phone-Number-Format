@@ -27,7 +27,7 @@ export class PhoneNumberFormat implements ComponentFramework.StandardControl<IIn
               countryCode: this.context.parameters.countryCode.attributes?.LogicalName,
             }),
           );
-          serviceProvider.register("ViewModel", new PhoneNumberFormatlVM(serviceProvider));
+          serviceProvider.register("ViewModel", new PhoneNumberFormatVM(serviceProvider));
         };
         this.reactCreateElement = (container, width, height, serviceProvider): void => {
           ReactDOM.render(
